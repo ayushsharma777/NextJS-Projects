@@ -1,0 +1,328 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #087e8b;
+  --pink: #fff3f3;
+  --gray: #f3f3f3;
+  --raspberry: #ffa5a5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+  position: relative;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: poppins, sans-serif;
+  color: var(--black);
+  word-wrap: break-word;
+}
+
+body,
+p,
+span,
+a,
+small {
+  font-family: poppins !important;
+  color: var(--black);
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--black) !important;
+}
+
+/* -------Responsive Settings ----- */
+
+.hide-in-desktop {
+  display: none;
+}
+
+.hide-in-desktop-only {
+  display: none;
+}
+
+.show-in-mobile-only {
+  display: none;
+}
+
+.mobile-nav-seperator {
+  background-color: var(--black);
+  color: var(--black);
+  opacity: 0.2;
+  width: 100%;
+  height: 1px;
+  margin: 10px 0px;
+}
+
+.mobile-nav {
+  gap: 10px;
+  z-index: 1000;
+}
+/* ------------------------------------------ */
+
+.primary-button {
+  font-family: poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1.25px;
+  text-align: center;
+}
+
+.nav-body-separator {
+  height: 50px;
+}
+
+.section-padding {
+  padding: 0px;
+}
+
+.section-tb-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* ------------------------------------------------ */
+
+/* TYPOGRAPHY---------------------- */
+
+.heading-1 {
+  font-family: poppins;
+  font-size: 96px;
+  /* font-weight: 400; */
+  /* line-height: 74px; */
+  letter-spacing: -1.5px;
+  /* text-align: left; */
+}
+
+.heading-2 {
+  font-family: poppins;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 74px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.heading-3 {
+  font-family: poppins;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.heading-4 {
+  font-family: poppins;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
+
+.heading-5 {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.heading-6 {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.15px;
+  text-align: left;
+}
+
+.subtitle-1 {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  text-align: left;
+}
+
+.subtitle-2 {
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+}
+
+.body-1 {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.body-2 {
+  font-family: poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
+
+.caption {
+  font-family: poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  text-align: left;
+}
+
+.overline {
+  font-family: poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  text-align: left;
+}
+
+/* --------------------------- */
+
+.pb-50 {
+  padding-bottom: 100px;
+}
+
+.pt-50 {
+  padding-top: 100px;
+}
+
+.flex {
+  display: flex;
+}
+
+.top-50 {
+  margin-top: 50px !important;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+.m-10 {
+  margin: 10px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.showEllipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Limit the number of lines to 1 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.showEllipsis-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit the number of lines to 2 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.showEllipsis-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit the number of lines to 3 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pink-bg {
+  background-color: #fff5de;
+}
+
+.blue-bg {
+  background-color: var(--blue);
+}
+.violet-bg {
+  background-color: #f2e0f6;
+}
+
+.lightblue-bg {
+  background-color: #a9cef4;
+}
+
+.black-bg {
+  background-color: #000000;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-blue {
+  color: var(--blue) !important;
+}
+.text-brown {
+  color: var(--black);
+}
+.text-black {
+  color: var(--black);
+}
+.text-white {
+  color: var(--white);
+}

@@ -1,0 +1,132 @@
+@media only screen and (max-width: 768px) {
+  .mobile-nav-link-container {
+    width: 50%;
+  }
+  .mobile-nav-link-container.is-active {
+    right: 50%;
+  }
+
+  .hamburger.is-active {
+    left: 43%;
+  }
+
+  .hide-in-desktop {
+    display: flex !important;
+  }
+  .nav-logo {
+    height: 50px !important;
+  }
+  .section-Panel .item {
+    background-size: 45%;
+  }
+
+  .section-Panel .item {
+    padding: 60px 70px;
+  }
+
+  .gift-Box-Container img {
+    height: 170px !important;
+    width: 170px !important;
+  }
+  .gift-Box-1,
+  .gift-Box-2,
+  .gift-Box-3 {
+    height: 175px !important;
+    width: 175px !important;
+  }
+
+
+  .section-Subscription-Text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .section-Subscription button {
+    bottom: -40px;
+    text-wrap: nowrap;
+  }
+
+ 
+
+  .section-Footer {
+    padding: 20px;
+  }
+  .footer-Subscribe {
+    max-width: fit-content !important;
+    width: 100% !important;
+  }
+
+  .footer-Social-Links {
+    /* max-width: fit-content !important; */
+    width: 100% !important;
+    text-align: center !important;
+    display: block !important;
+  }
+
+  .footer-Social-Links img:first-child {
+    display: none !important;
+  }
+  .footer-Social-Links .download-links img {
+    display: none !important;
+  }
+
+  .footer-Nav-Links {
+    width: 100% !important;
+  }
+
+  /* -------Utilities-------- */
+
+  .nav-body-separator {
+    height: 100px !important;
+  }
+
+  .hide-in-tab {
+    display: none !important;
+  }
+
+  .heading-1 {
+    font-size: 40px !important;
+    line-height: 60px;
+  }
+
+  .heading-2 {
+    font-size: 30px !important;
+    line-height: 50px !important;
+  }
+  .heading-3 {
+    font-size: 25px !important;
+    line-height: 65px !important;
+  }
+  .heading-4 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+  .heading-6 {
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+
+  .body-1 {
+    font-size: 12px !important;
+  }
+
+  .body-2 {
+    font-size: 10px !important;
+  }
+  .caption {
+    font-size: 10px !important;
+  }
+
+  .md-order-1 {
+    order: 1 !important;
+  }
+  .md-order-2 {
+    order: 2 !important;
+  }
+  .md-order-3 {
+    order: 3 !important;
+  }
+  .md-order-4 {
+    order: 4 !important;
+  }
+}

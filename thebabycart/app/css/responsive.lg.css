@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1200px) {
+  .hide-in-desktop-only {
+    display: flex !important;
+  }
+
+  .desktop-nav-items {
+    display: none !important;
+  }
+
+  .nav-buttons > img:first-child {
+    display: none;
+  }
+
+  /* ----------Gift---- */
+
+  .gift-Box-Container img {
+    height: 240px !important;
+    width: 240px !important;
+  }
+  .gift-Box-1,
+  .gift-Box-2,
+  .gift-Box-3 {
+    height: 240px !important;
+    width: 240px !important;
+  }
+
+  .section-Gift img {
+    width: 100%;
+  }
+
+  .section-Footer {
+    padding: 40px 50px 10px 60px;
+  }
+
+  /* --------------------- */
+
+
+  /* ---Utilities------ */
+
+  .primary-button {
+    font-size: 10px !important;
+  }
+
+  .heading-1 {
+    font-size: 64px !important;
+  }
+
+  .heading-2 {
+    font-size: 40px !important;
+    line-height: 65px;
+  }
+
+  .heading-3 {
+    font-size: 28px !important;
+  }
+
+  .heading-4 {
+    font-size: 26px !important;
+    line-height: 40px !important;
+  }
+
+  .heading-5 {
+    font-size: 18px !important;
+  }
+
+  .heading-6 {
+    font-size: 15px !important;
+    line-height: 20px;
+  }
+
+  .body-1 {
+    font-size: 14px !important;
+  }
+
+  .mobile-order-1 {
+    order: 1 !important;
+  }
+
+  .mobile-order-2 {
+    order: 2 !important;
+  }
+
+  .mobile-order-3 {
+    order: 3 !important;
+  }
+
+  .mobile-order-4 {
+    order: 4 !important;
+  }
+}

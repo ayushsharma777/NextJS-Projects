@@ -47,9 +47,7 @@ const CartItem = ({ cartItem, deleteCartItem }) => {
             {cartItem.itemActualPrice}
           </h2>
           <h2 className="cart-Item-CurrentPrice body-1 ml-10">{`₹${price}`}</h2>
-          <h2 className="caption ml-10">
-            {cartItem.itemId}(20% off)
-          </h2>
+          <h2 className="caption ml-10">(20% off)</h2>
         </div>
 
         <div className="d-flex cart-Product-Controls mt-2">

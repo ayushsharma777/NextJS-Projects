@@ -166,9 +166,7 @@ function Home() {
           tag={"we've done our best to curate this collection"}
           items={itemData}
         ></FeaturedCollection>
-
         <div className="nav-body-separator"></div>
-
         <FeaturedCollection
           title={"Explore our diverse range of categories"}
           tag={
@@ -176,27 +174,18 @@ function Home() {
           }
           items={categories}
         ></FeaturedCollection>
-
         <div className="nav-body-separator"></div>
-
         <Subscription></Subscription>
-
         <div className="nav-body-separator"></div>
-
         <FeaturedProducts
           title={"Top picks"}
           tag={"some of our bestseller"}
           items={featuredProducts}
         ></FeaturedProducts>
-
         <div className="nav-body-separator"></div>
-
         <Brands></Brands>
-
         <div className="nav-body-separator"></div>
-
         <Gallery></Gallery>
-
         <div className="nav-body-separator"></div>
       </div>
     </>

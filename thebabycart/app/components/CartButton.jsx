@@ -1,7 +1,6 @@
 "use client";
 import React, { useContext, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { ItemsStore } from "@/app/store/Items-store";
 const CartButton = ({ item }) => {
   const [itemAdded, setItemAdded] = useState(false);
@@ -29,13 +28,7 @@ const CartButton = ({ item }) => {
       <div
         className={`featured-Item-Cart-Image ${itemAdded ? "d-none" : ""}`}
         onClick={handleOnClick}
-      >
-        <Image
-          src={"/images/cartpage/shoppingbag.png"}
-          height={30}
-          width={30}
-        ></Image>
-      </div>
+      ></div>
     </>
   );
 };

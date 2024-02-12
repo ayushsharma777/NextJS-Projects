@@ -20,18 +20,18 @@ const Navbar = () => {
   let cartLen;
   cartLen = cartItems.length; // not fixed yet
 
-  useEffect(() => {
-    if (hamburgerVisible) {
-      document.body.classList.add("overflow-hidden");
-    } else {
-      document.body.classList.remove("overflow-hidden");
-    }
+  // useEffect(() => {
+  //   // if (hamburgerVisible) {
+  //   //   document.body.classList.add("overflow-hidden");
+  //   // } else {
+  //   //   document.body.classList.remove("overflow-hidden");
+  //   // }
 
-    // Clean up on unmount
-    return () => {
-      document.body.classList.remove("overflow-hidden");
-    };
-  }, [hamburgerVisible]);
+  //   // Clean up on unmount
+  //   return () => {
+  //     // document.body.classList.remove("overflow-hidden");
+  //   };
+  // }, [hamburgerVisible]);
 
   return (
     <nav className="container-fluid nav-container">

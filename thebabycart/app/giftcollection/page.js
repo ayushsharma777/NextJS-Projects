@@ -85,19 +85,18 @@ const page = () => {
     <>
       <div className="container-fluid">
         <Panel
-          textHead={"Delight your loved ones with"}
-          textTag={`
-                 chosen products, curated specifically for gifting to your loved ones`}
-          bgImage={"/images/giftcollectionpage/panelImage.png"}
-          bgColor={"#FFFFFF"}
+          textHead="Delight your loved ones with"
+          textTag="chosen products, curated specifically for gifting to your loved ones"
+          bgImage="/images/giftcollectionpage/panelImage.png"
+          bgColor="#FFFFFF"
           hideButton={true}
-        ></Panel>
+        />
 
         <div className="nav-body-separator"></div>
 
         <FeaturedProducts
-          title={"Our Products"}
-          tag={"We’ve picked few pieces we’re pretty sure you’ll love "}
+          title="Our Products"
+          tag="We’ve picked few pieces we’re pretty sure you’ll love "
           items={productShowcase}
         ></FeaturedProducts>
 
@@ -129,7 +128,7 @@ const page = () => {
 
         <div className="nav-body-separator"></div>
 
-        <FAQ></FAQ>
+        <FAQ />
 
         <div className="nav-body-separator"></div>
       </div>

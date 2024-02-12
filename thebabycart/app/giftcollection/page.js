@@ -114,15 +114,15 @@ const page = () => {
 
           <div className="col-12 col-md-7   gift-Collection-Text">
             <h2 className="heading-6">
-              “We've selected a few pieces we're confident you'll adore from our
-              list of handpicked products, specially curated for gifting to your
-              loved ones.”
+              “We&apos;ve selected a few pieces we&apos;re confident you&apos;ll
+              adore from our list of handpicked products, specially curated for
+              gifting to your loved ones.”
             </h2>
             <h2 className="caption text-center mt-4">
               Explore top brands for baby care, essentials, rompers, suits,
-              combos, and much more with "Great Offers & Great Discounts." No
-              need to worry about a thing, simply add to cart and share the
-              address – we'll take care of the rest.
+              combos, and much more with &quot;Great Offers & Great
+              Discounts.&quot; No need to worry about a thing, simply add to
+              cart and share the address – we&apos;ll take care of the rest.
             </h2>
           </div>
         </div>

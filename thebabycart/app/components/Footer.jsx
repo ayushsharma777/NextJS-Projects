@@ -77,7 +77,7 @@ const Footer = () => {
               <li className="m-body-2">Become a Partner</li>
               <li className="m-body-2">Why Join?</li>
               <li className="m-body-2">How it Works</li>
-              <li className="m-body-2">Seller's FAQs</li>
+              <li className="m-body-2">Seller&apos;s FAQs</li>
             </ul>
           </div>
         </div>

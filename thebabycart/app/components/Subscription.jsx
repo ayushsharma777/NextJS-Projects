@@ -6,7 +6,7 @@ const Subscription = () => {
     <section className="section-Subscription section-tb-padding">
       <div className="section-Subscription-Text col-md-6 col-12 mb-5 ">
         <div className="heading-4 m-heading-5 ">
-          Voila! We're here to nurture your child's growth.
+          Voila! We&apos;re here to nurture your child&apos;s growth.
         </div>
         <div className="body-1 mt-3 m-body-2">
           Thoughfully curated box, helps your child meet key milestones for

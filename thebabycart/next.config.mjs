@@ -2,7 +2,6 @@
 import webpack from "webpack";
 
 const nextConfig = {
-  output: "export",
   reactStrictMode: true,
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.plugins.push(

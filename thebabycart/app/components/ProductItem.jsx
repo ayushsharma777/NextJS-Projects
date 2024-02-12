@@ -1,6 +1,7 @@
 import React from "react";
 import CartButton from "./CartButton";
-import { ItemsStore } from "@/app/store/Items-store";
+import { ItemsStore } from "../store/Items-store";
+
 const ProductItem = ({
   itemId,
   itemImage,

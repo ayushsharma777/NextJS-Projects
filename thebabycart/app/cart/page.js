@@ -21,7 +21,7 @@ const page = () => {
                   (inclusive of all taxes)
                 </span>
               </h2>
-              <h2 className="body-1">{`₹4`}</h2>
+              <h2 className="body-1">{`₹0`}</h2>
             </div>
 
             <div className="d-flex justify-content-between mt-2">

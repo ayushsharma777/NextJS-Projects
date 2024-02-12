@@ -455,15 +455,18 @@
   margin-right: 5px;
 }
 .featured-Item-Cart-Image {
-  background: url("/images/cartpage/shoppingbag.png") no-repeat center center;
+  /* background: url("/images/cartpage/shoppingbag.png") no-repeat center center; */
   position: absolute;
   bottom: 10px;
   right: 10px;
-  width: 30px;
-  height: 30px;
+  /* width: 30px;
+  height: 30px; */
   cursor: pointer;
   border-radius: 50%;
   background-color: var(--black);
+}
+.featured-Item-Cart-Image img {
+  width: 100%;
 }
 
 .cart-ItemAdded-Image {

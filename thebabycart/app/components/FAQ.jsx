@@ -4,7 +4,7 @@ const FAQ = () => {
   return (
     <div>
       <div>
-        <h2 className="heading-6 mb-5 m-text-center">
+        <h2 className="heading-6 mb-5 m-txt-center">
           Frequently asked questions
         </h2>
       </div>

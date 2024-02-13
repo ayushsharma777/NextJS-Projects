@@ -12,7 +12,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section className="section-Gallery container-fluid text-center">
+    <section className="section-Gallery container-fluid txt-center">
       <FeaturedTitle
         textHead="The smile that brightens our day"
         textTag="Here, we celebrate the significance of every moment"

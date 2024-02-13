@@ -27,13 +27,13 @@ const Subscription = () => {
       <div className="gift-Box-Container col-md-6 m-mt-20">
         <div className="row">
           <div className="col-6">
-            <div className="heading-4 gift-Box-1 text-center m-heading-5">
+            <div className="heading-4 gift-Box-1 txt-center m-heading-5">
               Select your <br />
               child age
             </div>
           </div>
           <div className="col-6">
-            <div className="heading-4 gift-Box-2 text-center m-heading-5">
+            <div className="heading-4 gift-Box-2 txt-center m-heading-5">
               Subscribe to <br />
               the box
             </div>
@@ -42,7 +42,7 @@ const Subscription = () => {
         <div className="row">
           <div className="col-6">
             {" "}
-            <div className="heading-4 gift-Box-3 text-center m-heading-5">
+            <div className="heading-4 gift-Box-3 txt-center m-heading-5">
               Recieve a box As per subscription
             </div>
           </div>

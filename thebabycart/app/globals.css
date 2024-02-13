@@ -455,7 +455,7 @@
   margin-right: 5px;
 }
 .featured-Item-Cart-Image {
-  background: url("/images/cartpage/shoppingbag.png") no-repeat center center;
+  background: url("/images/cartPage/shoppingbag.png") no-repeat center center;
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -681,4 +681,21 @@
   padding-top: 12px;
   padding-bottom: 12px;
   cursor: pointer;
+}
+
+/* ---------------GO TO HOME BUTTON---------------------*/
+.page-Button-Home {
+  color: var(--white);
+  background-color: var(--black);
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.page-Button-Home:hover {
+  background-color: var(--white);
+  color: var(--black);
 }

@@ -52,14 +52,15 @@ const Navbar = () => {
             </button>
           </a>
         </div>
-
-        <Image
-          src="/images/MobileNavbar/Logo.png"
-          className="hide-in-desktop nav-mobile-logo"
-          alt="logo"
-          height={40}
-          width={40}
-        />
+        <Link href={"/"} className="hide-in-desktop">
+          <Image
+            src="/images/MobileNavbar/logo.png"
+            className=" nav-mobile-logo"
+            alt="logo"
+            height={40}
+            width={40}
+          />
+        </Link>
         <div className="desktop-nav-items col-md-8">
           {labels.map((label, index) => {
             return (
@@ -71,7 +72,6 @@ const Navbar = () => {
                 className="nav-item subtitle-1"
                 key={index}
               >
-                {" "}
                 {label}
               </Link>
             );
@@ -87,9 +87,18 @@ const Navbar = () => {
             {labels.map((label, index) => {
               return (
                 <React.Fragment key={index}>
-                  <Link href="#" className="nav-item subtitle-1">
+                  <Link
+                    href={`/${label
+                      .toLowerCase()
+                      .replace(" ", "-")
+                      .replace("'", "")}`}
+                    className="nav-item subtitle-1"
+                    onClick={() => setHamburgerVisible(false)}
+                    key={index}
+                  >
                     {label}
                   </Link>
+
                   <hr className="mobile-nav-seperator" />
                 </React.Fragment>
               );

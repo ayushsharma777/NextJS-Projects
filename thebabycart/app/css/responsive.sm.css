@@ -27,7 +27,6 @@
     padding: 100px 15px 50px 15px !important;
   }
 
-
   .itemDisplay img {
     width: 100% !important;
     height: auto !important;
@@ -65,12 +64,12 @@
   /* ----------------------------------- */
 
   .gift-Collection-Text {
-    padding: 10px 0px;
+    padding: 10px 0px !important;
   }
 
   /* -------Utilities-------- */
 
-  .section-tb-padding{
+  .section-tb-padding {
     padding: 0px !important;
   }
   .m-ml-none {
@@ -175,12 +174,11 @@
     order: 4 !important;
   }
 
-  .m-mb-20{
+  .m-mb-20 {
     margin-bottom: 20px !important;
   }
 
-  .m-mt-20{
+  .m-mt-20 {
     margin-top: 20px !important;
   }
-  
 }

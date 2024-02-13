@@ -87,7 +87,7 @@ const page = () => {
         <Panel
           textHead="Delight your loved ones with"
           textTag="chosen products, curated specifically for gifting to your loved ones"
-          bgImage="/images/giftcollectionpage/panelImage.png"
+          bgImage="/images/GiftCollectionPage/panelImage.png"
           bgColor="#FFFFFF"
           hideButton={true}
         />
@@ -102,11 +102,11 @@ const page = () => {
 
         <div className="nav-body-separator"></div>
 
-        <div className="row">
+        <div className="container-fluid">
           <div className="col-12 col-md-5">
             <img
-              src="/images/giftcollectionpage/giftImage.png"
-              alt=""
+              src="/images/GiftCollectionPage/giftImage.png"
+              alt="Gift Image"
               style={{ width: "100%" }}
             />
           </div>

@@ -44,8 +44,8 @@
 
   .brand-Item-Image {
     margin: 0px !important;
-    height: auto;
-    width: 100%;
+    height: auto !important;
+    width: 100% !important;
   }
 
   /* ---Utilities------ */

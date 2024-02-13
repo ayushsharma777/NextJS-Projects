@@ -3,7 +3,7 @@ import UpdateProgress from '../components/UpdateProgress.jsx'
 const page = () => {
   return (
     <div>
-      <UpdateProgress></UpdateProgress>
+      <UpdateProgress pageTitle="books"></UpdateProgress>
     </div>
   )
 }

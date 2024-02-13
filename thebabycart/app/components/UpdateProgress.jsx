@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-function page() {
+function page({ pageTitle }) {
   return (
     <div
       className="d-flex align-items-center justify-content-center flex-column heading-5"
@@ -10,7 +10,7 @@ function page() {
         textTransform: "uppercase",
       }}
     >
-      Section will update soon {":)"}
+      {pageTitle} will update soon {":)"}
       <Link href={"/"}>
         <button className="primary-button page-Button-Home mt-4">
           GO TO HOME

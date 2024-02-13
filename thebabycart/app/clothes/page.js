@@ -5,7 +5,7 @@ import UpdateProgress from "../components/UpdateProgress.jsx";
 function page() {
   return (
     <div>
-      <UpdateProgress></UpdateProgress>
+      <UpdateProgress pageTitle="clothes"></UpdateProgress>
     </div>
   );
 }

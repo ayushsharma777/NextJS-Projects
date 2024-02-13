@@ -14,14 +14,14 @@
   /* ----------Gift---- */
 
   .gift-Box-Container img {
-    height: 240px !important;
-    width: 240px !important;
+    height: 240px;
+    width: 240px;
   }
   .gift-Box-1,
   .gift-Box-2,
   .gift-Box-3 {
-    height: 240px !important;
-    width: 240px !important;
+    height: 240px;
+    width: 240px;
   }
 
   .section-Gift img {
@@ -33,7 +33,6 @@
   }
 
   /* --------------------- */
-
 
   /* ---Utilities------ */
 

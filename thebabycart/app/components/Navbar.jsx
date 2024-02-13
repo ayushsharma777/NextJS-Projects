@@ -70,6 +70,7 @@ const Navbar = () => {
                   .replace(" ", "-")
                   .replace("'", "")}`}
                 className="nav-item subtitle-1"
+                onClick={() => setHamburgerVisible(false)}
                 key={index}
               >
                 {label}

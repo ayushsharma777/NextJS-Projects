@@ -17,9 +17,13 @@ const Brands = () => {
         textTag="the brands accompanying us to ensure the well-being of your loved ones"
       ></FeaturedTitle>
 
-      <div className="brand-Image-Container">
+      <div className="brand-Image-Container row gap-2">
         {brandImage.map((image, index) => {
-          return <BrandItemImage key={index} imgUrl={image}></BrandItemImage>;
+          return (
+            <div className="col-3">
+              <BrandItemImage key={index} imgUrl={image}></BrandItemImage>
+            </div>
+          );
         })}
       </div>
     </section>

@@ -103,7 +103,7 @@ const page = () => {
         <div className="nav-body-separator"></div>
 
         <div className="row">
-          <div className="col-5">
+          <div className="col-12 col-md-5">
             <img
               src="/images/giftcollectionpage/giftImage.png"
               alt=""
@@ -112,12 +112,12 @@ const page = () => {
           </div>
 
           <div className="col-12 col-md-7   gift-Collection-Text">
-            <h2 className="heading-6">
+            <h2 className="heading-6 m-text-justify">
               “We&apos;ve selected a few pieces we&apos;re confident you&apos;ll
               adore from our list of handpicked products, specially curated for
               gifting to your loved ones.”
             </h2>
-            <h2 className="caption text-center mt-4">
+            <h2 className="caption m-caption text-center m-text-justify mt-4">
               Explore top brands for baby care, essentials, rompers, suits,
               combos, and much more with &quot;Great Offers & Great
               Discounts.&quot; No need to worry about a thing, simply add to

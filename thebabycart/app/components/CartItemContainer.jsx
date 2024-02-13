@@ -11,7 +11,7 @@ const CartItemContainer = () => {
     <>
       <h2 className="heading-6 ml-10">
         My cart{" "}
-        <span className="caption"> {`(${cartItems.length} items)`}</span>
+        <span className="caption m-caption"> {`(${cartItems.length} items)`}</span>
       </h2>
       {cartItems.map((cartItem, index) => {
         return (

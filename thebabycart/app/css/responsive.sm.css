@@ -36,7 +36,6 @@
     margin-top: 40px !important;
   }
 
-
   .featured-Product-Item-Image {
     width: 100% !important;
     background-size: contain !important;
@@ -64,15 +63,9 @@
 
   /* ----------------------------------- */
 
-  .brand-Item-Image {
-    margin: 0px !important;
+  .gift-Collection-Text {
+    padding: 10px 0px;
   }
-
-
-  .brand-Image-Container {
-    justify-content: space-between !important;
-  }
-
 
   /* -------Utilities-------- */
 
@@ -121,11 +114,16 @@
   }
   .m-heading-6 {
     font-family: libreBasker;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0.15px;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    letter-spacing: 0.15px !important;
     text-align: left;
+  }
+
+  .heading-6 {
+    font-size: 20px !important;
+    line-height: 25px !important;
   }
 
   .m-body-1 {
@@ -153,7 +151,13 @@
     letter-spacing: 0.15px !important;
     text-align: center !important;
   }
+  .m-text-center {
+    text-align: center !important;
+  }
 
+  .m-text-justify {
+    text-align: justify !important;
+  }
   .sm-order-1 {
     order: 1 !important;
   }

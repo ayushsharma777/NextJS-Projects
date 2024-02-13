@@ -108,6 +108,10 @@ const Navbar = () => {
         </div>
 
         <div className="nav-buttons mobile-order-3 col-md-2">
+          {/* <img src="/images/Search.png" alt="Search" />
+          <img src="/images/User.png" alt="User" />
+          <img src="/images/heart.png" alt="Heart" /> */}
+
           <Link href={"/cart"}>
             <div className="nav-buttons-cart">
               <img src="/images/cart.png" alt="" />

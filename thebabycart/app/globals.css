@@ -83,12 +83,12 @@
   display: flex;
   align-items: center;
   justify-content: right;
+  gap: 5px;
 }
 
 .nav-buttons img {
   max-width: 25px;
   max-height: 25px;
-  margin-right: 10px;
 }
 
 .nav-buttons-cart {
@@ -114,6 +114,8 @@
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
+  text-wrap: nowrap;
+  margin-left: 10px;
 }
 
 .hamburger {
@@ -580,7 +582,7 @@
 /* Gift collection page */
 
 .gift-Collection-Text {
-  padding: 95px 70px !important;
+  padding: 95px 70px;
 }
 
 /* CART  */
@@ -649,6 +651,22 @@
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
+
+/* .accordion-body {
+  background-color: white !important;
+  color: black !important;
+} */
+.accordion-button {
+  color: var(--black) !important;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--black) !important;
+  background-color: var(--white) !important;
+  box-shadow: none !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
 }
 
 .cart-Product-Controls button:last-child:hover {

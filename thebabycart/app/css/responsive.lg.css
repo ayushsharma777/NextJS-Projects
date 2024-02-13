@@ -34,6 +34,20 @@
 
   /* --------------------- */
 
+  /* Gift collection page */
+
+  .gift-Collection-Text {
+    padding: 45px 20px;
+  }
+
+  /* ------------------------------- */
+
+  .brand-Item-Image {
+    margin: 0px !important;
+    height: auto;
+    width: 100%;
+  }
+
   /* ---Utilities------ */
 
   .primary-button {

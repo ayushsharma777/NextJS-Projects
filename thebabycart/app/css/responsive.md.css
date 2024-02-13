@@ -35,6 +35,15 @@
     width: 175px !important;
   }
 
+  /* Gift collection page */
+
+  .gift-Collection-Text {
+    padding: 15px 20px;
+  }
+
+  /* ------------------------------- */
+
+  
 
   .section-Subscription-Text {
     padding-top: 10px;
@@ -45,8 +54,6 @@
     bottom: -40px;
     text-wrap: nowrap;
   }
-
- 
 
   .section-Footer {
     padding: 20px;

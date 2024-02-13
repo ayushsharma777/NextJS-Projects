@@ -20,8 +20,8 @@ const Brands = () => {
       <div className="brand-Image-Container row gap-2">
         {brandImage.map((image, index) => {
           return (
-            <div className="col-3">
-              <BrandItemImage key={index} imgUrl={image}></BrandItemImage>
+            <div className="col-3" key={index}>
+              <BrandItemImage imgUrl={image}></BrandItemImage>
             </div>
           );
         })}

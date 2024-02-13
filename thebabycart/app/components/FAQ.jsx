@@ -30,11 +30,12 @@ const FAQ = () => {
             <div className="accordion-body caption m-caption">
               Yes, absolutely! When making a purchase on our website, you can
               choose to gift items anonymously. Simply select the option for
-              anonymous gifting during the checkout process, and we'll ensure
-              that your recipient receives their gift without any indication of
-              who it's from. Your privacy and discretion are important to us, so
-              we've made it easy to give anonymously and still spread joy and
-              happiness to your loved ones or recipients.
+              anonymous gifting during the checkout process, and we&apos;ll
+              ensure that your recipient receives their gift without any
+              indication of who it&apos;s from. Your privacy and discretion are
+              important to us, so we&apos;ve made it easy to give anonymously
+              and still spread joy and happiness to your loved ones or
+              recipients.
             </div>
           </div>
         </div>
@@ -123,13 +124,13 @@ const FAQ = () => {
               your order, there may be additional fees or taxes applied after
               order confirmation. These additional charges could include customs
               duties, import taxes, or shipping fees for certain regions. We
-              strive to provide transparent pricing upfront, but it's essential
-              to be aware that some charges may be beyond our control and could
-              vary depending on your location and the regulations governing
-              imports in your country. We recommend reviewing our terms and
-              conditions or contacting our customer service team for more
-              information regarding potential additional fees or taxes that may
-              apply to your order.
+              strive to provide transparent pricing upfront, but it&apos;s
+              essential to be aware that some charges may be beyond our control
+              and could vary depending on your location and the regulations
+              governing imports in your country. We recommend reviewing our
+              terms and conditions or contacting our customer service team for
+              more information regarding potential additional fees or taxes that
+              may apply to your order.
             </div>
           </div>
         </div>

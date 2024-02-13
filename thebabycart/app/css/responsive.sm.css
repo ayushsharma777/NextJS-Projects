@@ -4,23 +4,23 @@
   }
 
   .mobile-nav-link-container {
-    width: 70%;
+    width: 70% !important;
   }
   .mobile-nav-link-container.is-active {
     right: 30% !important;
   }
 
   .hamburger.is-active {
-    left: auto;
-    right: 35%;
+    left: auto !important;
+    right: 35% !important;
   }
 
   .nav-bar {
-    padding: 10px 5px;
+    padding: 10px 5px !important;
   }
 
   .nav-buttons-cart {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
   }
 
   .section-Panel .item {
@@ -28,17 +28,17 @@
   }
 
   .itemDisplay img {
-    width: 100%;
-    height: auto;
+    width: 100% !important;
+    height: auto !important;
   }
 
   .section-Panel button {
-    margin-top: 40px;
+    margin-top: 40px !important;
   }
 
 
   .featured-Product-Item-Image {
-    width: 100%;
+    width: 100% !important;
     background-size: contain !important;
   }
 
@@ -139,7 +139,7 @@
     letter-spacing: 0.25px !important;
     font-family: poppins !important;
     font-weight: 400 !important;
-    text-align: left !important;
+    /* text-align: left !important; */
   }
   .m-caption {
     font-size: 12px !important;

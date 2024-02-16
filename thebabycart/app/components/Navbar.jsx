@@ -13,6 +13,7 @@ const Navbar = () => {
     "ACCESSORIES",
     "SKIN CARE",
     "BLOGS",
+    "ABOUT"
   ];
 
   const [hamburgerVisible, setHamburgerVisible] = useState(false);
